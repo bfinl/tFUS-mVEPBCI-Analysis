@@ -9,3 +9,13 @@ This work was supported by NIH grants R01NS124564 (PI: B.H.), R01AT009263 (PI: B
 Please direct correspondence about the paper to: Dr. Bin He, Carnegie Mellon University, Department of Biomedical Engineering, Pittsburgh, PA 15213. E-mail: bhe1@andrew.cmu.edu
 
 Some comments in the code may refer to "tFUS" and "US-Control" conditions. These are in reference to our earliest naming of experimental conditions. The names were changed during the Peer Review process, and in most cases updated in the code. If you do come across "tFUS" and "US-Control," "tFUS" refers to "tFUS-GC" and "US-Control" to "tFUS-GP"
+
+## Contents: 
+
+### R Analysis scripts:
+
+These files contain the R codes to run the linear mixed effect models on the data. They have been updated to run directly on the Source Data file that is provided with the paper. Only the path to those source files, and the specific sheet to analyze, need to be changed by a different user. 
+
+### Python Notebooks:
+
+These notebooks are the rest of the analysis files. They have been named in a (mostly) intuitive way. The Behavioral Analysis should run directly on the BCI Outcomes file included in the this paper's FigShare repository. For the other files, you will need to create your own file_paths directory organizer. Once this is done, the EEG Preprocessor and Sensor Analysis notebooks should run. Due to subject confidentiality, we are not releasing the MRI files of associated with this study, so the N200 power analysis and Correlation Analysis files will not be able run as intended. However, they could still be run with assuming standard EEG montage and using MNE Python's sample head model (but please note doing so may produce different results than the ones reported in the paper).
