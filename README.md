@@ -1,5 +1,7 @@
 # tFUS-mVEPBCI-Analysis
 
+v1.0.0 DOI: 10.5281/zenodo.10968398
+
 These codes were used for the analysis of EEG BCI data as part of the study: J. Kosnoff, K. Yu, C. Liu, and B. He, “Transcranial Focused Ultrasound to V5 Enhances Human Visual Motion Brain-Computer Interface by Modulating Feature-Based Attention.” bioRxiv, p. 2023.09.04.556252, Sep. 5, 2023. doi: 10.1101/2023.09.04.556252.
 
 In many cases, MNE Python based codes were copied, with some alteration, from MNE Python tutorials. I have done my best to mark all of the direct copied and pasted lines of code with their source. Please note that, for these marked lines, the license is BSD-3-Clause, and original copyright belongs to the MNE-Python contributors.
