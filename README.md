@@ -1,6 +1,6 @@
 # tFUS-mVEPBCI-Analysis
 
-v1.0.0 DOI: 10.5281/zenodo.10968398
+v1.0.0 DOI: [10.5281/zenodo.10968398](https://doi.org/10.5281/zenodo.10969062)
 
 These codes were used for the analysis of EEG BCI data as part of the study: J. Kosnoff, K. Yu, C. Liu, and B. He, “Transcranial Focused Ultrasound to V5 Enhances Human Visual Motion Brain-Computer Interface by Modulating Feature-Based Attention.” bioRxiv, p. 2023.09.04.556252, Sep. 5, 2023. doi: 10.1101/2023.09.04.556252.
 
